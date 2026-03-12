@@ -6,8 +6,14 @@ Appirater is a class that you can drop into any iPhone app (iOS 4.0 or later) th
 Getting Started
 ---------------
 
-### CocoaPods
-To add Appirater to your app, add `pod "Appirater"` to your Podfile.
+### Swift Package Manager
+To add Appirater to your app, use Swift Package Manager and add the package at:
+
+```
+https://github.com/arashpayan/appirater
+```
+
+You can add it in Xcode via `File` > `Add Packages...` or by declaring it as a dependency in `Package.swift`.
 
 Configuration
 -------------
